@@ -1,0 +1,32 @@
+{
+  "name": "hostkey-widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --open",
+    "prod": "webpack --mode production --open",
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+  },
+  "author": "Artyom Harutyunyan",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "eslint-config-wesbos": "^0.0.19",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "5.15.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint-cli": "^5.0.0",
+    "webpack-cli": "^3.3.10"
+  }
+}
